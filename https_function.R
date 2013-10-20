@@ -7,5 +7,3 @@ https_function <- function(url, ...) {
     eval(parse(text = getURL(u, followlocation = TRUE, cainfo = system.file("CurlSSL", "cacert.pem", package = "RCurl"))), envir = .GlobalEnv)
   })
 }
-
-https_function("https://raw.github.com/rheimann/sentiment_function/master/sentiment.R")
