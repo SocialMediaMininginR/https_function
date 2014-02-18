@@ -1,3 +1,4 @@
+# Tony Breyal
 https_function <- function(url, ...) {
   # load package
   require(RCurl)
